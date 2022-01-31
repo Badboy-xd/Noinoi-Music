@@ -1,4 +1,4 @@
-#      <p align="center">�kuru music 𝑩𝒐𝒕�  </a></p>
+#      <p align="center">�✑𝕂𝕦𝕣𝕦🎵𝓜𝓾𝓼𝓲𝓬🎵 𝑩𝒐𝒕�  </a></p>
 <p align="center">
 
 <p align="center"><a href="https://t.me/kkttmm26_bot"><img src="https://telegra.ph/file/8e0d6ef07f11dddd0e027.jpg"></a></p>
@@ -48,7 +48,7 @@
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Badboy-xd/NOINOI-MUSIC)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Badboy-xd/✑𝕂𝕦𝕣𝕦🎵𝓜𝓾𝓼𝓲𝓬🎵)
 
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
