@@ -1,4 +1,4 @@
-#      <p align="center">�✑𝕂𝕦𝕣𝕦🎵𝓜𝓾𝓼𝓲𝓬🎵 𝑩𝒐𝒕�  </a></p>
+#      <p align="center">✑𝕂𝕦𝕣𝕦🎵𝓜𝓾𝓼𝓲𝓬🎵 𝑩𝒐𝒕 </a></p>
 <p align="center">
 
 <p align="center"><a href="https://t.me/kkttmm26_bot"><img src="https://telegra.ph/file/8e0d6ef07f11dddd0e027.jpg"></a></p>
