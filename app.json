@@ -1,16 +1,16 @@
 {
-    "name": "NOINOI MUSIC",
+    "name": "KURU MUSIC",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/128defe7306ce44d78b96.jpg",
+    "logo": "https://telegra.ph/file/977893a2ef416c01eaa2b.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/BAZIGARXD",
-    "repository": "https://github.com/HYKO-XD/NOINOI-MUSIC",
-    "success_url": "https://t.me/BAZIGARYT",
+    "website": "https://t.me/ganda_pipul",
+    "repository": "https://github.com/Badboy-xd/kuru-Music",
+    "success_url": "https://t.me/KKTTMM26",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
@@ -47,17 +47,17 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "CFC_BOT_SUPPORT"
+            "value": "EnglishHindi_Chatting_Group"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "BAZIGARXD"
+            "value": "ganda_pipul"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "BAZIGARYT"
+            "value": "KKTTMM26"
         },
         "DATABASE_URL": {
             "description": "fill with the mongodb url you get from cloud.mongodb.com",
@@ -67,7 +67,7 @@
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "ɴᴏɪɴᴏɪ-x🇮🇩"
+            "value": "BADBOY-KURU"
         }
     },
     "addons": [],
