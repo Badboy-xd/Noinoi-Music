@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from Noinoi.DREAMS.cfc import call_py, bot
+from badboy.core. import pytgCalls, bot
 
 async def start_bot():
     await bot.start()
