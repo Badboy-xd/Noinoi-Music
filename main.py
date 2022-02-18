@@ -1,6 +1,6 @@
 import asyncio
 from pytgcalls import idle
-from Bad boy.core. import pytgCalls
+from Process.main import call_py, bot
 
 async def start_bot():
     await bot.start()
