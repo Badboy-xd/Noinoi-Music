@@ -1,6 +1,6 @@
 import os
 import asyncio
-from Kuru.Rava.cfc import bot, call_py
+from Kuru.Rava.vivaan import bot, call_py
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
 from Kuru.Rava.queues import QUEUE, clear_queue, get_queue, pop_an_item
