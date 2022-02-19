@@ -1,4 +1,4 @@
-from Noinoi.config import API_HASH, API_ID, BOT_TOKEN, SESSION_NAME
+from Kuru.config import API_HASH, API_ID, BOT_TOKEN, SESSION_NAME
 from pyrogram import Client
 from pytgcalls import PyTgCalls
 
