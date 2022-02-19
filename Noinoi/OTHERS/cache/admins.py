@@ -1,4 +1,4 @@
-from Noinoi.config import admins
+from Kuru.config import admins
 from typing import Dict, List
 
 
