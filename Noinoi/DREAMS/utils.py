@@ -1,9 +1,9 @@
 import os
 import asyncio
-from Noinoi.DREAMS.cfc import bot, call_py
+from Kuru.Rava.cfc import bot, call_py
 from pytgcalls.types import Update
 from pytgcalls.types.input_stream import AudioPiped, AudioVideoPiped
-from Noinoi.DREAMS.queues import QUEUE, clear_queue, get_queue, pop_an_item
+from Kuru.Rava.queues import QUEUE, clear_queue, get_queue, pop_an_item
 from pytgcalls.types.input_stream.quality import (
     HighQualityAudio,
     HighQualityVideo,
@@ -23,9 +23,9 @@ from pytgcalls.types.stream import StreamAudioEnded, StreamVideoEnded
 keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/CFC_BOT_SUPPORT"),
+                InlineKeyboardButton("• Gʀᴏᴜᴘ", url=f"https://t.me/EnglishHindi_Chatting_Group"),
                 InlineKeyboardButton(
-                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/BAZIGARXD"),
+                    "• Cʜᴀɴɴᴇʟ", url=f"https://t.me/ganda_pipul"),
             ]
         ]
     )
