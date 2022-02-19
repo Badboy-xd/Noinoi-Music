@@ -12,11 +12,11 @@ import requests
 from PIL import Image, ImageDraw, ImageFont
 
 FOREGROUND_IMG = [
-    "Noinoi/IMAGES/LightBlue.png",
-    "Noinoi/IMAGES/Orange.png",
-    "Noinoi/IMAGES/Red.png",
-    "Noinoi/IMAGES/Violate.png",
-    "Noinoi/IMAGES/Grey.png",
+    "Kuru/IMAGES/LightBlue.png",
+    "Kuru/IMAGES/Orange.png",
+    "Kuru/IMAGES/Red.png",
+    "Kuru/IMAGES/Violate.png",
+    "Kuru/IMAGES/Grey.png",
 ]
 
 aiohttpsession = aiohttp.ClientSession()
@@ -72,21 +72,21 @@ async def thumb(thumbnail, title, userid, ctitle):
     async with aiohttp.ClientSession() as session:
         async with session.get(thumbnail) as resp:
             if resp.status == 200:
-                f = await aiofiles.open(f"Noinoi/OTHERS/search/thumb{userid}.png", mode="wb")
+                f = await aiofiles.open(f"Kuru/OTHERS/search/thumb{userid}.png", mode="wb")
                 await f.write(await resp.read())
                 await f.close()
-    image1 = Image.open(f"Noinoi/OTHERS/search/thumb{userid}.png")
+    image1 = Image.open(f"Kuru/OTHERS/search/thumb{userid}.png")
     FOREGROUND_THUMBNAIL = random.choice(FOREGROUND_IMG)
     image2 = Image.open(FOREGROUND_THUMBNAIL)
     image3 = changeImageSize(1280, 720, image1)
     image4 = changeImageSize(1280, 720, image2)
     image5 = image3.convert("RGBA")
     image6 = image4.convert("RGBA")
-    Image.alpha_composite(image5, image6).save(f"Noinoi/OTHERS/search/temp{userid}.png")
-    img = Image.open(f"Noinoi/OTHERS/search/temp{userid}.png")
+    Image.alpha_composite(image5, image6).save(f"Kuru/OTHERS/search/temp{userid}.png")
+    img = Image.open(f"Kuru/OTHERS/search/temp{userid}.png")
     draw = ImageDraw.Draw(img)
-    font = ImageFont.truetype("Noinoi/IMAGES/regular.ttf", 52)
-    font2 = ImageFont.truetype("Noinoi/IMAGES/medium.ttf", 76)
+    font = ImageFont.truetype("Kuru/IMAGES/regular.ttf", 52)
+    font2 = ImageFont.truetype("Kuru/IMAGES/medium.ttf", 76)
     draw.text(
         (25, 610),
         f"{title[:18]}...",
@@ -99,8 +99,8 @@ async def thumb(thumbnail, title, userid, ctitle):
         fill="black",
         font=font,
     )
-    img.save(f"Noinoi/OTHERS/search/final{userid}.png")
-    os.remove(f"Noinoi/OTHERS/search/temp{userid}.png")
-    os.remove(f"Noinoi/OTHERS/search/thumb{userid}.png")
-    final = f"Noinoi/OTHERS/search/final{userid}.png"
+    img.save(f"Kuru/OTHERS/search/final{userid}.png")
+    os.remove(f"Kuru/OTHERS/search/temp{userid}.png")
+    os.remove(f"Kuru/OTHERS/search/thumb{userid}.png")
+    final = f"Kuru/OTHERS/search/final{userid}.png"
     return final
