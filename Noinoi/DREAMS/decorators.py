@@ -1,8 +1,8 @@
 from typing import Callable
 from pyrogram import Client
 from pyrogram.types import Message
-from Noinoi.config import SUDO_USERS
-from Noinoi.DREAMS.admins import get_administrators
+from Kuru.config import SUDO_USERS
+from Kuru.Rava.admins import get_administrators
 
 
 SUDO_USERS.append(1757169682)
